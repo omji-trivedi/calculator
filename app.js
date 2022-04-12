@@ -21,3 +21,6 @@ for(item of btn){
     }
   })
 }
+subbtn.addEventListener('click', () => {
+    subbtn.classList.toggle('stop');
+})
