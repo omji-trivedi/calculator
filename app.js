@@ -21,6 +21,6 @@ for(item of btn){
     }
   })
 }
-subbtn.addEventListener('click', () => {
+document.querySelector('.subbtn').addEventListener('click', () => {
     subbtn.classList.toggle('stop');
 })
