@@ -6,7 +6,6 @@
 body{
   height:100vh;
   display:flex;
-  flex-direction:column;
   justify-content:center;
   align-items:center;
 }
@@ -77,6 +76,7 @@ td:active{
 
 .yt h3 {
     margin-top: 30px;
+  margin-left:15px;
     margin-bottom: 50px;
 }
 
