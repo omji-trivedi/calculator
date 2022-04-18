@@ -115,3 +115,14 @@ td:active{
         transform: rotateZ(-30deg);
     }
 }
+
+@media only screen and (max-width : 500px){
+
+  body{
+    flex-direction: column;
+  }
+
+ table td{
+   height:44px;
+ }
+}
